@@ -1,0 +1,85 @@
+/* Apply these styles to the entire page */
+
+
+/* Apply these styles only to the sidebar */
+.sidebar {
+  height: calc(100vh - 50px);
+  flex: 3;
+  border-right: 1px solid lightgray;
+  
+  position: sticky;
+  top: 60px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179); /* color of the thumb */
+  
+}
+
+.sidebarWrapper {
+  padding: 20px;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sidebarIcon {
+  margin-right: 15px;
+}
+
+.sidebarListItemText {
+  font-size: 14px;
+}
+
+.sidebarButton {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.sidebarFriendList {
+  margin: 20px 0;
+  border-top: 1px solid lightgray;
+}
+
+.sidebarFriend {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.sidebarFriend img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.sidebarFriendName {
+  font-size: 14px;
+}

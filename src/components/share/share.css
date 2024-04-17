@@ -1,0 +1,86 @@
+/* share.css */
+.share {
+    width: 90%;
+   
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sharewrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shareTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shareProfileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .shareInput {
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline-width: 0;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .shareHr {
+    border: none;
+    border-top: 1px solid lightgray;
+    margin: 15px 0;
+  }
+  
+  .shareBottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .shareOptions {
+    display: flex;
+  }
+  
+  .shareOption {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .shareIcon {
+    font-size: 18px;
+    color: #5e5e5e;
+    margin-right: 5px;
+  }
+  
+  .shareOptionText {
+    font-size: 14px;
+    color: #5e5e5e;
+  }
+  .shareButton {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #1877f2; /* Facebook blue color */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .shareButton:hover {
+    background-color: #166fe5; /* Darker shade of Facebook blue on hover */
+  }
+  
